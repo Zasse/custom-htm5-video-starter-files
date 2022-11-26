@@ -90,16 +90,6 @@ progress::-webkit-progress-value {
   border-radius: 2px;
 }
 
-#volume.volume::-webkit-progress-bar {
-  background-color: #474545;
-  border-radius: 2px;
-}
-
-#volume.volume::-webkit-progress-value {
-  background: var(--youtube-red);
-  border-radius: 2px;
-}
-
 progress::-moz-progress-bar {
   border: 1px solid var(--youtube-red);
   background: var(--youtube-red);

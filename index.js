@@ -323,7 +323,7 @@ volumeButton.addEventListener('mouseenter', () => {
 //volume
 /* 
 volume slider design match progress bar
-
+https://www.youtube.com/watch?v=Bra8esNUMug
 */
 
 // more features
