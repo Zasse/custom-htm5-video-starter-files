@@ -311,6 +311,25 @@ videoControls.addEventListener('mouseleave', hideControls)
 
 document.addEventListener('keyup', keyboardShortcuts)
 
-//hide volume slider if not hovering
-/* event listener mouse enter and leave
- similiar to show controls */
+/*
+volumeButton.addEventListener('mouseleave', () => {
+    setTimeout(() => { volume.classList.add('hidden') }, 3500)
+})
+volumeButton.addEventListener('mouseenter', () => {
+    volume.classList.remove('hidden')
+})
+*/
+
+//volume
+/* 
+volume slider design match progress bar
+
+*/
+
+// more features
+/*
+Add support for captions and subtitles.
+Add speed support.
+Add the ability to fast-forward or rewind the video.
+Add ability to choose video resolution (720p, 480p, 360p, 240p).
+*/
