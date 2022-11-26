@@ -311,14 +311,14 @@ videoControls.addEventListener('mouseleave', hideControls)
 
 document.addEventListener('keyup', keyboardShortcuts)
 
-/*
+
 volumeButton.addEventListener('mouseleave', () => {
     setTimeout(() => { volume.classList.add('hidden') }, 3500)
 })
 volumeButton.addEventListener('mouseenter', () => {
     volume.classList.remove('hidden')
 })
-*/
+
 
 //volume
 /* 
