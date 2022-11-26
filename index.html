@@ -7,6 +7,7 @@
   <title>Custom HTML5 Video Player</title>
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body>
   <div class="container">
     <div class="video-container" id="video-container">
@@ -22,6 +23,7 @@
       </video>
 
       <div class="video-controls hidden" id="video-controls">
+        
         <div class="video-progress">
           <progress id="progress-bar" value="0" min="0"></progress>
           <input class="seek" id="seek" value="0" min="0" type="range" step="1">
@@ -63,17 +65,20 @@
                 <use href="#pip"></use>
               </svg>
             </button>
-            <button data-title="Full screen (f)" class="fullscreen-button" id="fullscreen-button">
+            <button data-title="Fullscreen (f)" class="fullscreen-button" id="fullscreen-button">
               <svg>
                 <use href="#fullscreen"></use>
                 <use href="#fullscreen-exit" class="hidden"></use>
               </svg>
             </button>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+        </div> <!--end of btm ctrls-->
+
+      </div> <!--end of video ctrls-->
+
+    </div> <!--end of video container-->
+  </div> <!--end of container-->
 
   <svg style="display: none">
     <defs>
@@ -89,7 +94,7 @@
       <path d="M14.016 3.234q3.047 0.656 5.016 3.117t1.969 5.648-1.969 5.648-5.016 3.117v-2.063q2.203-0.656 3.586-2.484t1.383-4.219-1.383-4.219-3.586-2.484v-2.063zM16.5 12q0 2.813-2.484 4.031v-8.063q1.031 0.516 1.758 1.688t0.727 2.344zM3 9h3.984l5.016-5.016v16.031l-5.016-5.016h-3.984v-6z"></path>
       </symbol>
 
-      <symbol id="volume-low" viewBox="0 0 24 24">
+      <symbol id="volume-low" viewBox="2 0 24 24">
       <path d="M5.016 9h3.984l5.016-5.016v16.031l-5.016-5.016h-3.984v-6zM18.516 12q0 2.766-2.531 4.031v-8.063q1.031 0.516 1.781 1.711t0.75 2.32z"></path>
       </symbol>
 
